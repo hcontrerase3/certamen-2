@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-image:linear-gradient(-120deg,
+     rgba(111, 233, 127, 0.8),
+      rgba(121, 120, 119, 0.932)),
+    url(img/banner.jpg);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.hero-texto{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero h1{
+    font-size: 60px;
+    text-shadow: 0 0 20px black;
+    margin-bottom: 20px;
+    text-decoration: double underline overline;
+}
+.hero h2{
+    font-size: 40px;
+    text-decoration: double underline;
+    text-shadow: 0 0 20px black;
+}
+.contenedor{
+    width: 90%;
+    padding: 80px 0;
+    margin: 0 auto;
+    
+}
+.contenedor h2{
+    color: rgb(30, 66, 19);
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-decoration: double underline;
+    text-align: center;
+}
+
+.contenedor-ofertas{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    background-color: turquoise;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.galeria{
+    background-color: rgb(222, 216, 135);
+}
+.contenedor-galeria{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.contenedor-galeria img{
+    width: 23%;
+    margin-bottom: 25px;
+    display: block;
+    box-shadow: 0 0 6px black;
+}
+.contenedor-galeria img:hover{
+    transform: scaleX(-1.01);
+    opacity: 0.6;
+}
+
+.formulario{
+    background-color: rgb(245, 159, 149);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+.formulario input{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(20, 104, 34);
+    border-radius: 10px;
+}
+.formulario textarea{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(20, 104, 34);
+    border-radius: 10px;
+}
+.menu{
+    background-color: rgb(37, 165, 95);
+    list-style: none;
+    position: fixed;
+    width: 100%;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 18px;
+    display: inline-block;
+}
+.menu li a:hover{
+    background-color: white;
+    color: rgb(214, 33, 33);
+    text-decoration:dotted underline;
+    transform: scale(1.01);
+    transition: 1s;
+}
+footer{
+    background-color: rgb(144, 148, 145);
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+
+
